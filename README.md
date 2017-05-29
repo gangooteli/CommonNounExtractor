@@ -17,7 +17,7 @@ Please pass two arguments while running the Main class:
 2. args[1] = Path of trained tagger i.e. "Path_to_tagger\\bidirectional-distsim-wsj-0-18.tagger"
 
 Steps to run the project
-1. Import project in Eclipse.
+1. Download, Extract and Import project in Eclipse.
 2. Right Click on imported project Run As -> Run Configurations->Arguments Tab
 3. Copy path of json file
 4. Copy path of trained tagger 
