@@ -2,31 +2,6 @@
 
 Logic: I have used Standford PosTagger for tagging ReviewText. Then extracted the occurance of JJ/JJR/JJS with NN/NNS i.e. adjective with common noun
 and only NN/NNS i.e. only common noun in tagged data.
-
-
-The project structure contains:
-	CommonNounExtractor/src
-		-main.java.com
-			-Main.java
-			-PosTagger.java
-			-ReviewPOJO.java
-	CommonNounExtractor
-		-lib
-			-jackson-annotations-2.8.3
-			-jackson-core-2.8.3
-			-jackson-databind-2.8.3
-			-stanford-postagger
-		-output
-			-output1.txt
-			-output2.txt
-		-tagger
-			-bidirectional-distsim-wsj-0-18.tagger
-			-bidirectional-distsim-wsj-0-18.tagger.props
-			-left3words-wsj-0-18.tagger
-			-left3words-wsj-0-18.tagger.props
-			-README-Models
-
-			
 			
 tagger Folder: contains the pre-trained models used to do POS tagging.
 lib Folder: contains the jackson parser for parsing json file. Also contains Stanford PosTagger to perform POS tagging.
